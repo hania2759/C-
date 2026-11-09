@@ -11,7 +11,7 @@ int main(void)
 
 	{
 
-		printf("Diz um número\n");
+		printf("Diz um nÃºmero\n");
 
 		scanf_s("%i", &n);
 
@@ -24,19 +24,20 @@ int main(void)
 		if (n % 3 == 0)
 
 
-			printf("número é multiplo de 3\n");
+			printf("nÃºmero Ã© multiplo de 3\n");
 
 
 		if (n % 5 == 0)
 
 
-			printf(" número é multiplo de 5\n");
+			printf(" nÃºmero Ã© multiplo de 5\n");
 
 
 
 	} while (n != 0);
 
 	printf("sai porque carregaste no zero");
+
+ 
+return 0;
 }
-
-
